@@ -1,0 +1,2 @@
+- Test: `http://localhost:5000/api/values`
+- Return: `["value1","value2"]`
