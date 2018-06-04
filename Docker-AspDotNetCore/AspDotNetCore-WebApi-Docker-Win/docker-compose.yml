@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aspdotnetcore-webapi:
+    image: ${DOCKER_REGISTRY}aspdotnetcorewebapi
+    build:
+      context: .
+      dockerfile: AspDotNetCore-WebApi\Dockerfile
