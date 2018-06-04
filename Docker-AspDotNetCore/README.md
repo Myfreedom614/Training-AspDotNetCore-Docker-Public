@@ -3,7 +3,7 @@
 - Return: `["value1","value2"]`
 
 ## Win10 CE
-- Host Linux/Windows, Switch, if hang, restart OS to switch
+- Host Linux/Windows, [Switch](https://stackoverflow.com/questions/46779911/asp-net-core-docker-build-error), if hang, restart OS to switch
 - Diff config
 
 		diff AspDotNetCore-WebApi-Docker-Win/docker-compose.dcproj AspDotNetCore-WebApi-Docker-Linux/docker-compose.dcproj
