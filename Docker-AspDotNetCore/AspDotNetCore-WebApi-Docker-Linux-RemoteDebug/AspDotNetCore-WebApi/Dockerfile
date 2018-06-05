@@ -20,7 +20,7 @@ RUN dotnet build AspDotNetCore-WebApi.csproj -c Release -o /app
 FROM build AS publish
 RUN dotnet publish AspDotNetCore-WebApi.csproj -c Release -o /app
 RUN echo 'service ssh restart' >> /app/start.sh
-RUN echo 'echo -e "1qa@WS3ed\n1qa@WS3ed" | passwd root' >> /app/start.sh
+RUN echo 'echo -e "password\npassword" | passwd root' >> /app/start.sh
 RUN echo 'dotnet /app/AspDotNetCore-WebApi.dll' >> /app/start.sh
 RUN chmod a+x /app/start.sh
 
