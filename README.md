@@ -9,7 +9,7 @@
 
 ## 容器技术栈入门
 - [Golang Debugging](https://github.com/wu-wenxiang/Training-AspDotNetCore-Docker-Public/blob/master/doc/golang.md)
-	- 关于Debugging的问题
+	- [关于Debugging的问题](https://github.com/wu-wenxiang/Training-Debug-Windows-Public/blob/master/doc/Debug-Debugger.md)
 		- 用户态调试时，Debugger能做些什么？
 		- 有哪些典型的调试事件？
 		- 可以设置几种断点？
