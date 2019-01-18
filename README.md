@@ -9,42 +9,12 @@
 
 ## 容器技术栈入门
 - Golang Debugging
-	- 用户态调试时，Debugger能做些什么？
-		- 以启动模式**Open**，或者**Attach**住进程：运行/暂停执行
-		- 捕捉调试事件：单步执行/设置断点/捕获异常事件
-		- 查看和修改寄存器、内存数据
-	- 有哪些典型的调试事件？
-		- 断点触发
-		- 非法内存操作（Access Violation / Segment Fault）
-		- 由被调试程序抛出的异常
-		- 其它：进程/线程创建和消亡，动态链接库的运行时导入
-	- 可以设置几种断点？
-		- 软件断点
-		- 硬件断点
-		- 内存断点
-	- Debug为什么难？因为缺失了信息。
-		- 符号表
-		- 源码
+	- 关于Debugging的问题
+		- 用户态调试时，Debugger能做些什么？
+		- 有哪些典型的调试事件？
+		- 可以设置几种断点？
+		- Debug为什么难？因为缺失了什么信息？
 	- Go是一种什么样的语言？
-		- 是：静态语言、静态类型语言、强类型语言、非托管、函数式编程、面向对象、内置GC
-		- 没有：隐式类型转化、构造和析构、运算符重载、默认形参、继承、范型、异常、函数注释、线程局部变量
-		- 设计哲学：
-			- 不牺牲“简单性”来换取“方便性”
-			- 兼顾表达力（易用性）、性能、和安全性（稳定性）
-		- 数据类型：
-			- 基本数据：整数、浮点数、复数、布尔值、字符串、常量
-			- 复合数据：数组、slice、map、结构体
-			- 函数/方法
-			- 接口
-			- goroutine与chan
-				- goroutine是m个协程活在n个线程池中：epoll
-				- 可以在代码层再次select
-			- 低级编程：unsafe
-			- 有指针但不能做算术运算
-		- 从长期看：落地与生态
-			- 适合写后端服务
-			- 代表作：Docker、Kubernetes以及一干工具
-			- 有规范强大的标准库
 	- Debug with go
 		- 基于源码的调试
 - Docker usage, configuration & inside
@@ -58,5 +28,7 @@
 	- Kubernetes和Docker swarm应该怎么选？
 	- Quick Start
 - AKS
-	- Quick Start
+	- [Overview](https://docs.microsoft.com/en-us/azure/aks/)
+	- [Tutorial: Prepare an application for Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app)
+	- [Create a CI/CD pipeline for Python with Azure DevOps Projects](https://docs.microsoft.com/en-us/azure/devops-project/azure-devops-project-python?toc=%2Fen-us%2Fazure%2Fdevops-project%2Ftoc.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
 
