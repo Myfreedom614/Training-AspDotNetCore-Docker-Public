@@ -8,7 +8,7 @@
 1. VScode + Debug + Docker + ASP.NET Core
 
 ## 容器技术栈入门
-- Golang Debugging
+- [Golang Debugging](https://github.com/wu-wenxiang/Training-AspDotNetCore-Docker-Public/blob/master/doc/golang.md)
 	- 关于Debugging的问题
 		- 用户态调试时，Debugger能做些什么？
 		- 有哪些典型的调试事件？
@@ -17,14 +17,14 @@
 	- Go是一种什么样的语言？
 	- Debug with go
 		- 基于源码的调试
-- Docker usage, configuration & inside
+- [Docker usage, configuration & inside](https://github.com/wu-wenxiang/Training-AspDotNetCore-Docker-Public/blob/master/doc/docker.md)
 	- 容器是什么？
 	- 容器和虚拟机相比，有哪些优势和不足？
 	- 容器适用于什么场景？
 	- Docker和容器有什么关系？
 	- EE和CE应该怎么选？
 	- Quick Start
-- Kubernetes quick start & usage
+- [Kubernetes quick start & usage](https://github.com/wu-wenxiang/Training-AspDotNetCore-Docker-Public/blob/master/doc/kubernetes.md)
 	- Kubernetes和Docker swarm应该怎么选？
 	- Quick Start
 - AKS
